@@ -41,7 +41,7 @@ vim.opt.listchars = { space = '·', tab = '>-', trail = '$' }
 
 vim.opt.termguicolors = true
 
-vim.opt.mouse = 'n'
+vim.opt.mouse = 'a'
 
 vim.opt.updatetime = 50
 
