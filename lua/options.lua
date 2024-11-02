@@ -88,3 +88,5 @@ vim.wo.foldnestmax = 1
 
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
+
+vim.opt.scrolloff = 8

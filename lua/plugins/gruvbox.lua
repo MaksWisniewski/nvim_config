@@ -17,6 +17,11 @@ return {
         strikethrough = false,
         invert_selection = false,
         inverse = true,    -- invert background for search, diffs, statuslines and errors
+
+        -- contrast = "soft", -- can be "hard", "soft" or empty string
+        -- overrides = {
+        -- }
+        
         contrast = "hard", -- can be "hard", "soft" or empty string
         overrides = {
             ColorColumn = { bg = "#171717" },

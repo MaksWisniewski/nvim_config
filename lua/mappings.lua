@@ -27,3 +27,10 @@ vim.keymap.set("n", "<leader>e", vim.diagnostic.open_float, { desc = "Show [D]ia
 
 -- Map <leader>R to :Run command
 vim.api.nvim_set_keymap('n', '<leader>R', ':Run<CR>', { noremap = true, silent = true })
+
+vim.keymap.set("n", "<C-d>", "<C-d>zz")
+vim.keymap.set("n", "<C-u>", "<C-u>zz")
+
+-- next greatest remap ever : asbjornHaland
+vim.keymap.set({"n", "v"}, "<leader>y", [["+y]])
+vim.keymap.set("n", "<leader>Y", [["+Y]])
